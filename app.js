@@ -68,7 +68,7 @@ app.use(function(err, req, res, next) {
     error: {},
   });
 });
-
+console.log("testing");
 SwaggerExpress.create(config, function(err, swaggerExpress) {
   if (err) {
     throw err;
